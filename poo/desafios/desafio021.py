@@ -1,0 +1,46 @@
+from rich import print
+
+class Caneta:
+    def __init__(self, cor):
+        self.cor = cor
+        self.tampa = False
+
+    def destampar(self):
+        self.tampa = True
+
+    def tampar(self):
+        self.tampa = False
+
+    def escrever(self, msg):
+        cores = {'vermelho': 'red', 'amarelo': 'yellow', 'azul': 'blue', 'verde': 'green'}
+        cor_traduzida = cores[self.cor]
+        if self.tampa:
+            print(f'[{cor_traduzida}]{msg}')
+        else:
+            print('Caneta tampada!')
+
+    def quebrar_linha(self, n=1):
+        for i in range(0, n):
+            print()
+
+c1 = Caneta('vermelho')
+c2 = Caneta('azul')
+c3 = Caneta('verde')
+c4 = Caneta('amarelo')
+
+c1.destampar()
+c2.destampar()
+c3.destampar()
+c4.destampar()
+
+c1.escrever('Olá')
+c1.quebrar_linha(2)
+c2.escrever('Oi')
+c3.escrever('Tudo bem?')
+c3.quebrar_linha()
+c4.escrever('Hello')
+
+
+
+
+    
