@@ -1,0 +1,48 @@
+Lista de Requisitos:
+
+Nome do projeto:
+- PeTinder
+
+ Público-alvo:
+- Donos de pets
+
+Qual o problema que o software vai resolver:
+- Encontrar um companheiro para o pet do usuário
+
+O que o sistema faz?
+- Cadastro do usuário: Dono dos pets, login e senha
+- Cadastro dos pets: o usuário cadastra os seus pets
+- Os pets são classificados e organizados por raça, idade, sexo, pedigree
+- Busca de pets
+- Propagando de pet shop
+- Range de distância
+
+Metodologia:
+
+- BackEnd em Python
+- Banco de dados relacional
+- FronEnd em HTML, CSS e JavaScript
+
+Orçamento: 
+Custo real: zero
+Ferramentas gratuitas para o desenvolvimento: Servidor, banco de dados, design
+Custo estimado para um cenário real de mercado: (valores aproximados)
+Modelagem de Dados (POO)	10 horas	R$ 400,00
+Backend (Python/Flask)	30 horas	R$ 1.200,00
+Frontend (HTML/Bootstrap)	20 horas	R$ 800,00
+Testes e Ajustes	10 horas	R$ 400,00
+TOTAL (Investimento Intelectual)	70 horas	R$ 2.800,00
+
+Telas:
+- Login
+- Cadastro
+- Principal
+- Cadastro de pets
+- Lista de matchs com chats
+
+Fazer a tela de Cadastro de Usuário (HTML simples).
+
+Fazer o Python receber esses dados e salvar (mesmo que seja numa lista temporária).
+
+Fazer a tela de "Explorar", onde os pets aparecem em quadradinhos (Cards).
+
