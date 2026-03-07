@@ -1,0 +1,25 @@
+Cronograma:
+ 
+- Concepção inicial do projeto e esboço 
+- Levantamento de requisitos
+- Home do site em HTML
+
+- Diagrama de Classes:
+Definir classes
+Desenhar as principais telas no Figma (cadastro, login, cadastro do pet, tela inicial)
+
+Back End:
+- Estrutura de pastas
+- Codificar classes em Python
+- Configurar banco de dados para salvar esses objetos
+- Criar funções principais
+
+Fron End:
+- Criar telas
+- Sistema de match
+
+Funcionalidades:
+- Implementar filtro de busca 
+- Lógica de propaganda
+
+Testes 
