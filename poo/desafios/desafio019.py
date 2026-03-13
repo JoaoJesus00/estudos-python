@@ -8,7 +8,7 @@ class Livro:
         self.atual = 1
         print(f':book: [blue]Voce acabou de abrir o livro [green]\'{self.nome}\'[/] que tem [red]{self.pags} páginas[/]. Voce agora está na [yellow]página {self.atual}[/][/]')
 
-    def avançar_pags(self, num):
+    def avançar_pags(self, num=1):
         if (self.atual + num) > self.pags:
             for i in range(self.atual, self.pags + 1):
                 print(f'Pág{self.atual}', end=' -> ')

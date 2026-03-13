@@ -1,4 +1,3 @@
-import timeit
 #Comparando algoritmos através de Big-O
 
 #Função 1 - O(n)
