@@ -33,6 +33,7 @@ class Pilha:
         else:
             return -1
         
+"""
 pilha = Pilha(5)
 pilha.empilhar(1)
 pilha.empilhar(1)
@@ -50,3 +51,4 @@ pilha.desempilhar()
 print(pilha.ver_topo())
 pilha.desempilhar()
 pilha.desempilhar()
+"""
