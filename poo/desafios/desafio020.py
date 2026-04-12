@@ -3,15 +3,15 @@ from rich.console import Group
 from rich.panel import Panel
 
 class Gamer:
-    def __init__(self, nome, nick, favoritos=None):
+    def __init__(self, nome, nick):
         self.nome = nome
         self.nick = nick
-        self.favoritos = favoritos if favoritos else []
+        self.favoritos = []
 
     def ficha(self):
         lista = [f':video_game: [red]{jogo}[/]' for jogo in self.favoritos]
         conteudo = Group(
-            f'Nome real: [blue on black]{self.nome}[/]',
+            f'Nome real: [blue on black] {self.nome} [/]',
             f'Jogos Favoritos:',
             *lista
         )
